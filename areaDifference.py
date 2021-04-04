@@ -9,7 +9,6 @@
 def areaDifference(radius):
     radius = float(radius)
     radius_sqaured = radius ** 2
-    # check type of input --> non negative integers
     # area diff = lrg sq - sm sq
         # lrg sq area --> 4r^2
         # sm sq area --> radius^2

@@ -11,7 +11,7 @@ def areaDifference(radius):
     radius_sqaured = radius ** 2
     # area diff = lrg sq - sm sq
         # lrg sq area --> 4r^2
-        # sm sq area --> radius^2
+        # sm sq area --> 2r^2
         # diff is 4r^2 - 2r^2 = 2r^2
 
     return f'The difference in area of an incircle and circumscribed circle is {2 * radius_sqaured}'
